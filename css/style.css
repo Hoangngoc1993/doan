@@ -731,3 +731,4 @@ body{
 .fiona__info-link:hover{
     color: var(--second-color);
 }
+.img-login {display: block; margin-left: auto; margin-right: auto;}
