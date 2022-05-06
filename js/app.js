@@ -14,6 +14,9 @@ images = [
     },
     {
         link: './assets/img/poster/img2.jpg'
+    },
+    {
+        link: './assets/img/poster/img3.jpg'
     }
 ]
 
