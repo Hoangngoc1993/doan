@@ -1,0 +1,159 @@
+hr {
+    border: 1px #efefef;
+}
+.introduce {
+    margin-left: 9%;
+}
+.introduce a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+    font-size: small;
+
+}
+.introduce_1 {
+    color: #f58020;
+}
+.introduce_0:hover {
+    color: transparent;
+    color: #dbd1cc;
+}
+.introduce a i {
+    color: #dbd1cc;
+    font-size: smaller;
+}
+
+.polo {
+    padding: 40px 10px ;
+    margin-left: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.polo a img{
+    height: 110px;
+    float: left;
+}
+.infor a {
+    box-sizing: content-box;
+    font-family: small;
+    text-decoration: none;
+    color: black;
+}
+.infor a:hover {
+    color: transparent;
+    color:#c4c4c4;
+}
+.delete a {
+    color: black;
+    text-decoration: underline;
+}
+.delete:hover a{
+    color: #333;
+    text-decoration: none;
+}
+.price{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.current_price{
+    color: #f58020;
+    font-weight: 600;
+    font-size: 18px;
+}
+.old_price {
+    color: #999;
+    text-decoration: line-through;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.amount {
+    float: right;
+    box-sizing: border-box;
+    border: 0.5px solid rgba(0,0,0,.125);
+    margin-right: 3px;
+    padding: 0px 5px 0px 5px;
+}
+.amount input{
+    width: 65px;
+    text-align: center;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+    border-left-color: rgba(0,0,0,0.125);
+    border-right-color: rgba(0,0,0,0.125);
+}
+.amount i {
+    font-size: larger;
+    text-align: center;
+}
+.amount_change{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+.note {
+    box-sizing: border-box;
+    border: 0.5px solid rgba(0,0,0,.125);
+    margin-bottom: 30px;
+    width: 93%;
+}
+.introduce_info{
+    padding: 15px ;
+    margin-left: 5px !important;
+}
+.cost_1 {
+    color: #f58020;
+    text-align: right;
+    font-weight: 700;
+    padding: 0;
+}
+.introduce_ship{
+    margin-bottom: 15px;
+    margin-left: 135px !important;
+}
+.note_1 {
+    box-sizing: border-box;
+    border: 0.5px solid #ffffff;
+    margin-bottom: 10px;
+    background-color: #f58020;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+    color: #ffffff;
+    width: 93%;
+}
+.note_2 {
+    box-sizing: border-box;
+    border: 0.5px solid #f58020;
+    margin-bottom: 0px;
+    margin-top: 10px !important;
+    background-color: #f58020;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+    color: #f58020;
+    background-color: #ffffff;
+    width: 93%;
+}
+.note_1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.note_2 a {
+    text-decoration: none;
+    color: #f58020;
+}
+.note_1:hover a, .note_2:hover a{
+    color: #ffffff;
+    font-weight: 700 !important;
+}
+.note_2:hover {
+    color: transparent;
+    background-color: #f58020;
+}
